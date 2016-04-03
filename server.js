@@ -11,6 +11,8 @@ app.use(express.static(path.join(__dirname, './client')));
 //requires mongoose
 require('./server/config/mongoose.js');//for mongoose usage
 require('./server/config/routes.js')(app);
+mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/meals-development'); //for mongolabs/heroku
+
 
 app.set('port', (process.env.PORT || 5000));
 app.get('/', function(request, response){
