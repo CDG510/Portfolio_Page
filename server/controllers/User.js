@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 var User = mongoose.model('User');
-
+//leaving here for future blog implementation
 module.exports = (function(){
 	// return {
 		//this will eventually be just for the logged user

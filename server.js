@@ -12,6 +12,6 @@ app.use(express.static(path.join(__dirname, './client')));
 require('./server/config/mongoose.js');//for mongoose usage
 require('./server/config/routes.js')(app);
 
-app.listen(8000, function(){
-	console.log('party on 8000')
+app.listen(5000, function(){
+	console.log('party on 5000')
 });
