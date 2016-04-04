@@ -26,7 +26,7 @@ myPage.controller('UsersController', function ($scope, $location, $log, $uibModa
       } ,
       FlixnGrub: {
           title: "FlixnGrub",
-          description: "Randomizer service to find a randomized delivery service and movie to solve the eternal mystery dinner and a movie ",
+          description: "Randomizer service to find a randomized delivery service and movie to solve the eternal mystery dinner and a movie. Users can get random results or search for more specificity. ",
           tech: [
               {pic:"../img/logos/angularyes.png", caption: "AngularJS"},
               {pic: "../img/logos/nodeLogo2.png", caption: "NodeJS"},
@@ -93,25 +93,25 @@ myPage.controller('UsersController', function ($scope, $location, $log, $uibModa
 
         ],
         slides: [
-        { pic: "../img/reactProperty/reactProperty1.png",
-            caption: "Intro/Search Page"},
-        {pic: "../img/reactProperty/reactProperty2.png",
-        caption: "Results Page"},
-        {pic: "../img/reactProperty/reactProperty3.png",
-            caption: "Results details"}
+        { pic: "../img/reactProperty/reactProperty1.png", caption: "Intro/Search Page"},
+        {pic: "../img/reactProperty/reactProperty2.png", caption: "Results Page"},
+        {pic: "../img/reactProperty/reactProperty3.png", caption: "Results details"}
     ],
         github: "https://github.com/CDG510/React_native_PropertyFinder",
     },
 
     DojoParty: {
         title: "Dojo Party",
-        description: "Python app which allows users to search a song and GIF's to accompany for an audio visual experience",
+        description: "Python app which allows users to search a song and GIF's to accompany for an audio visual experience. Utilizes Soundcloud and Giphy API",
         tech: [
             {pic: "../img/logos/pythonLogo.png", caption: "Python"},
             {pic: "../img/logos/MySQL-icon.png", caption: "mySQL"},
             {pic: "../img/logos/flask2.png", caption: "Flask"},
             {pic: "../img/logos/MaterializeLogo.png", caption: "MaterializeCSS"},
-            {pic: "../img/logos/jqueryLogo.png", caption: "jQuery"}
+            {pic: "../img/logos/jqueryLogo.png", caption: "jQuery"},
+            {pic: "../img/logos/giphyLogo.png", caption: "Giphy API"},
+            {pic: "../img/logos/soundcloud.png", caption: "SoundCloud API"}
+
         ],
         slides: [
             {pic: "../img/DojoParty/dojoPartyLogin.png", caption: "Login/Register page"},
