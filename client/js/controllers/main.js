@@ -132,7 +132,7 @@ myPage.controller('UsersController', function ($scope, $location, $log, $uibModa
 
     	   $scope.openModal = function(name){
     		   var modalInstance = $uibModal.open({
-    		                 templateUrl: '../partials/static/projectModal.html',
+    		                 templateUrl: '../partials/Static/projectModal.html',
     		                 controller: 'ModalInstanceCtrl',
     		                 scope: $scope,
                              size: 'lg',
