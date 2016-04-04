@@ -4,7 +4,6 @@ myPage.controller('UsersController', function ($scope, $location, $log, $uibModa
     $scope.projects = {
         Vibe: {
           title: "Vibe",
-          img: "../img/Vibe/Vibe.png",
           slides: [
               {pic: '../img/Vibe/Vibe.png',
               caption: "Home Page"},
@@ -27,7 +26,6 @@ myPage.controller('UsersController', function ($scope, $location, $log, $uibModa
       } ,
       FlixnGrub: {
           title: "FlixnGrub",
-          img: "../img/FlixnGrub/FlixnGrub2.png",
           description: "Randomizer service to find a randomized delivery service and movie to solve the eternal mystery dinner and a movie ",
           tech: [
               {pic:"../img/logos/angularyes.png", caption: "AngularJS"},
@@ -37,7 +35,7 @@ myPage.controller('UsersController', function ($scope, $location, $log, $uibModa
               {pic:  "../img/logos/expressLogo.png", caption: "ExpressJS"}
           ],
           slides: [
-              {pic: "../img/FlixnGrub/FlixNgrub2.png",
+              {pic: "../img/FlixnGrub/FlixnGrub2.png",
               caption: "Automatic Search Results"},
               {pic: "../img/FlixnGrub/FlixnGrubAdvanced.png",
               caption: "Advanced Search for more specific results"}
@@ -46,7 +44,6 @@ myPage.controller('UsersController', function ($scope, $location, $log, $uibModa
       },
       Giphtionary: {
          title: "Giphtionary",
-         img: "../img/Giphtionary/Giphtionary3.jpg",
          description: "iOS game/AV player using the Giphy API and a user's local music library. Users can synchronize Gif's to their current song name, or play a pictionary style game where others guess the song name based on the Gif's displayed ",
          tech: [
              {pic: "../img/logos/swiftLogo3.png", caption: "Swift"},
@@ -68,7 +65,6 @@ myPage.controller('UsersController', function ($scope, $location, $log, $uibModa
 
       MEANTrivia: {
           title: "MEAN Trivia",
-          img: "../img/MEANTrivia/MEANTrivia.png",
           description: "Trivia app that allows users to add questions, test themselves, filter, and compare scores from previous quizzes. Less front-end focus as was completed in under 5 hours.",
           tech: [
               {pic: "../img/logos/mongodb.png", caption: "Mongodb"},
@@ -89,7 +85,6 @@ myPage.controller('UsersController', function ($scope, $location, $log, $uibModa
 
     PropertyFindr: {
         title: "Property Findr",
-        img: "../img/reactProperty/reactProperty2.png",
         description: "iOS/Android app that allows users search for properties in the UK area, see pictures, prices, and descriptions of property for sale",
         tech: [
             {pic: "../img/logos/nodeLogo2.png", caption: "NodeJS"},
@@ -110,7 +105,6 @@ myPage.controller('UsersController', function ($scope, $location, $log, $uibModa
 
     DojoParty: {
         title: "Dojo Party",
-        img: "../img/DojoParty/dojoParty.png",
         description: "Python app which allows users to search a song and GIF's to accompany for an audio visual experience",
         tech: [
             {pic: "../img/logos/pythonLogo.png", caption: "Python"},
@@ -120,8 +114,7 @@ myPage.controller('UsersController', function ($scope, $location, $log, $uibModa
             {pic: "../img/logos/jqueryLogo.png", caption: "jQuery"}
         ],
         slides: [
-            {pic: "../img/DojoParty/dojoParty.png",
-            caption: "Login/Register page"},
+            {pic: "../img/DojoParty/dojoPartyLogin.png", caption: "Login/Register page"},
             {pic: "../img/DojoParty/dojoPartyPlay.png", caption: "hidden search fields & audio player"},
             {pic: "../img/DojoParty/dojoParty.png", caption: "Adjust song & gifs"}
         ],
