@@ -84,7 +84,7 @@ myPage.controller('UsersController', function ($scope, $location, $log, $uibModa
 
 
     PropertyFindr: {
-        title: "Property Findr",
+        title: "Property Finder",
         description: "iOS/Android app that allows users search for properties in the UK area, see pictures, prices, and descriptions of property for sale",
         tech: [
             {pic: "../img/logos/nodeLogo2.png", caption: "NodeJS"},
