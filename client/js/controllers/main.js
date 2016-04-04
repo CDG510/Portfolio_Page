@@ -27,7 +27,7 @@ myPage.controller('UsersController', function ($scope, $location, $log, $uibModa
       } ,
       FlixnGrub: {
           title: "FlixnGrub",
-          img: "../img/FlixnGrub/FlixNgrub2.png",
+          img: "../img/FlixnGrub/FlixnGrub2.png",
           description: "Randomizer service to find a randomized delivery service and movie to solve the eternal mystery dinner and a movie ",
           tech: [
               {pic:"../img/logos/angularyes.png", caption: "AngularJS"},
@@ -93,7 +93,7 @@ myPage.controller('UsersController', function ($scope, $location, $log, $uibModa
         description: "iOS/Android app that allows users search for properties in the UK area, see pictures, prices, and descriptions of property for sale",
         tech: [
             {pic: "../img/logos/nodeLogo2.png", caption: "NodeJS"},
-            {pic: "../img/logos/ReactLogo1.svg", caption: "React-Native"},
+            {pic: "../img/logos/reactLogo1.svg", caption: "React-Native"},
              {pic: "../img/logos/nestoria.png", caption: "Nestoria API"}
 
         ],
@@ -114,9 +114,9 @@ myPage.controller('UsersController', function ($scope, $location, $log, $uibModa
         description: "Python app which allows users to search a song and GIF's to accompany for an audio visual experience",
         tech: [
             {pic: "../img/logos/pythonLogo.png", caption: "Python"},
-            {pic: "../img/logos/mySQL-icon.png", caption: "mySQL"},
+            {pic: "../img/logos/MySQL-icon.png", caption: "mySQL"},
             {pic: "../img/logos/flask2.png", caption: "Flask"},
-            {pic: "../img/logos/materializeLogo.png", caption: "MaterializeCSS"},
+            {pic: "../img/logos/MaterializeLogo.png", caption: "MaterializeCSS"},
             {pic: "../img/logos/jqueryLogo.png", caption: "jQuery"}
         ],
         slides: [
