@@ -26,7 +26,7 @@ myPage.controller('UsersController', function ($scope, $location, $log, $uibModa
       } ,
       FlixnGrub: {
           title: "FlixnGrub",
-          description: "Randomizer service to find a randomized delivery service and movie to solve the eternal mystery dinner and a movie. Users can get random results or search for more specificity. ",
+          description: "Single page randomizer service to find food for delivery and a movie to watch, solving the eternal struggle of dinner and a movie at home. Users can get random results or search for more specificity.  ",
           tech: [
               {pic:"../img/logos/angularyes.png", caption: "AngularJS"},
               {pic: "../img/logos/nodeLogo2.png", caption: "NodeJS"},

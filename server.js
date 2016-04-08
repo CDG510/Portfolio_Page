@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded());
 app.use(express.static(path.join(__dirname, './client')));
 
 //requires mongoose
-require('./server/config/mongoose.js');//for mongoose usage
+// require('./server/config/mongoose.js');//for mongoose usage
 require('./server/config/routes.js')(app); //for later blog implementation
 
 app.get('/', function(req, res) {
