@@ -12,7 +12,7 @@ myPage.controller('UsersController', function ($scope, $location, $log, $uibModa
               {pic: "../img/Vibe/VibeProfile.png",
               caption: "Profile page"}
           ],
-          description: "Scheduling app oriented for musicians looking to find time to record. Studios can choose their schedule, and musicians can see a studios calendar and book time based on that schedule",
+          description: "Scheduling app oriented for musicians looking to find time to record. Studios can choose their schedule, and musicians can see a studios calendar and book time based on that schedule. Musicians can search and filter studios based on location, specialty, or price.",
           tech:[
               {pic: "../img/logos/mongodb.png", caption: "Mongodb"},
               {pic:  "../img/logos/expressLogo.png", caption: "ExpressJS"},
