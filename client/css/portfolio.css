@@ -12,7 +12,6 @@ h1,h2,h3,h4,h5,h6{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-s
 .getMe li {
     margin: 0 20px 0 20px;
     /*display: inline;*/
-
 }
 .btn-lg {
     text-transform:uppercase;
@@ -23,6 +22,16 @@ h1,h2,h3,h4,h5,h6{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-s
     font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     text-transform:uppercase;
     font-weight:700;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.btn:hover{
+    z-index:100;
+    -webkit-transform: scale(1.1);
+transform: scale(1.1);
+      box-shadow:rgba(0, 0, 0, 0.3) 0 12px 12px 0;
+      -webkit-box-shadow:rgba(0, 0, 0, 0.3) 0 12px 12px 0;
+      -moz-box-shadow:rgba(0, 0, 0, 0.3) 0 12px 12px 0;
 }
 
 
@@ -34,7 +43,8 @@ transform: scale(1.3);
       -webkit-box-shadow:rgba(0, 0, 0, 0.3) 0 16px 16px 0;
       -moz-box-shadow:rgba(0, 0, 0, 0.3) 0 16px 16px 0;
   }
-.btn-primary .badge{color:#e40c0d;background-color:#fff}.btn-xl{color:#fff;background-color:#e40c0d;border-color:#e40c0d;font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700;border-radius:3px;font-size:18px;padding:20px 40px}.btn-xl:hover,.btn-xl:focus,.btn-xl:active,.btn-xl.active,.open .dropdown-toggle.btn-xl{color:#fff;background-color:#c62828;border-color:#c62828}
+.btn-primary .badge{color:#e40c0d;background-color:#fff}.btn-xl{color:#fff;background-color:#e40c0d;border-color:#e40c0d;font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700;border-radius:3px;font-size:18px;padding:20px 40px}.btn-xl:hover,.btn-xl:focus,.btn-xl:active,.btn-xl.active,.open .dropdown-toggle.btn-xl
+{color:#fff;background-color:#c62828;border-color:#c62828}
 .btn-xl:active,.btn-xl.active,.open .dropdown-toggle.btn-xl{background-image:none}.btn-xl.disabled,.btn-xl[disabled],fieldset[disabled] .btn-xl,.btn-xl.disabled:hover,.btn-xl[disabled]:hover,fieldset[disabled] .btn-xl:hover,.btn-xl.disabled:focus,.btn-xl[disabled]:focus,fieldset[disabled] .btn-xl:focus,.btn-xl.disabled:active,.btn-xl[disabled]:active,fieldset[disabled] .btn-xl:active,.btn-xl.disabled.active,.btn-xl[disabled].active,fieldset[disabled]
  .btn-xl.active{background-color:#e40c0d;border-color:#e40c0d}.btn-xl .badge{color:#e40c0d;background-color:#fff}.navbar-default{background-color:#222;border-color:transparent}.navbar-default .navbar-brand{color:#e40c0d;font-family:"Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive}.navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:active,.navbar-default
   .navbar-brand.active{color:#c62828}.navbar-default .navbar-collapse{border-color:rgba(255,255,255,.02)}.navbar-default .navbar-toggle{background-color:#e40c0d;border-color:#e40c0d}.navbar-default .navbar-toggle .icon-bar{background-color:#fff}.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus{background-color:#e40c0d}
