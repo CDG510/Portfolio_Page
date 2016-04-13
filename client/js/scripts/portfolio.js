@@ -21,7 +21,7 @@ $('.navbar-collapse ul li a').click(function() {
 });
 
 
-
+///for the timeline
 dates = $("ul.timeline li").fadeTo(0, 0);
 
 $(window).scroll(function(d,h) {
@@ -32,7 +32,8 @@ $(window).scroll(function(d,h) {
     });
 });
 
-skills = $(".fadeUp li, span, h4, .fadeIn li").fadeTo(0, 0);
+///for the toolbox
+skills = $(".fadeUp li, .fadeUp span, .fadeUp h4, .fadeIn li").fadeTo(0, 0);
 
 $(window).scroll(function(d,h) {
     skills.each(function(i) {
