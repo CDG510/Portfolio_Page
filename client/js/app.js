@@ -11,12 +11,5 @@ myPage.config(function($stateProvider, $urlRouterProvider) {
       url: "/",
       templateUrl: "../partials/Static/main.html"
     })
-    // .state('state1.list', {
-    //   url: "/list",
-    //   templateUrl: "../partials/state1.list.html",
-    //   controller: function($scope) {
-    //     $scope.items = ["A", "List", "Of", "Items"];
-    //   }
-    // })
-
+    
 });

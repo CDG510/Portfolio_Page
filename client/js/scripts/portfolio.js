@@ -28,7 +28,7 @@ $(window).scroll(function(d,h) {
     dates.each(function(i) {
         a = $(this).offset().top + $(this).height();
         b = $(window).scrollTop() + $(window).height();
-        if (a < b) $(this).fadeTo(1000,1);
+        if (a < b) $(this).fadeTo(600,1);
     });
 });
 
@@ -39,6 +39,6 @@ $(window).scroll(function(d,h) {
     skills.each(function(i) {
         a = $(this).offset().top + $(this).height();
         b = $(window).scrollTop() + $(window).height();
-        if (a < b) $(this).fadeTo(1000,1);
+        if (a < b) $(this).fadeTo(600,1);
     });
 });
